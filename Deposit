@@ -1,0 +1,11 @@
+
+public class Deposit extends CheckBalance
+{
+  public  void Deposit()
+  {
+    System.out.println("Please enter the amount you would wish to deposit: ");
+ 
+    deposit = input.nextInt();
+    amount = amount + deposit;
+    System.out.println("Your money has been seccessfully deposited "+amount);
+  } 
